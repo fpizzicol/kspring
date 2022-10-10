@@ -1,15 +1,9 @@
 package tech.talk.kspring.service
 
-import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.stereotype.Service
 import tech.talk.kspring.model.Pokemon
-import tech.talk.kspring.repository.PokemonRepository
+import tech.talk.kspring.resource.PokemonResource
 
-@Service
-class PokemonService {
-
-    @Autowired
-    private lateinit var repository: PokemonRepository
+class PokemonService(private val repository: PokemonResource) {
 
     fun doSearch(name: String): Pokemon {
         return repository.doSearch(name) ?: Pokemon()

@@ -2,6 +2,9 @@
 
 package tech.talk.kspring.model
 
+import kotlinx.serialization.Serializable
+
+@Serializable
 data class Pokemon(
     val id: Int = -1,
     val name: String = "missingno",
@@ -18,38 +21,45 @@ data class Pokemon(
     val weight: Int = -1,
 )
 
+@Serializable
 data class PokemonBaseData(
     val name: String = "",
     val url: String = "",
 )
 
 
+@Serializable
 data class PokemonMove(
     val move: PokemonBaseData? = null,
 )
 
+@Serializable
 data class PokemonType(
     val slot: Int = -1,
     val type: PokemonBaseData? = null,
 )
 
+@Serializable
 data class PokemonStat(
     val baseStat: Int = -1,
     val effort: Int = -1,
     val stat: PokemonBaseData? = null,
 )
 
+@Serializable
 data class PokemonAbility(
     val ability: PokemonBaseData? = null,
     val isHidden: Boolean = false,
     val slot: Int = -1,
 )
 
+@Serializable
 data class PokemonForm(
     val name: String? = null,
     val url: String? = null,
 )
 
+@Serializable
 data class Sprites(
     val back_default: String? = null,
     val front_default: String? = null,

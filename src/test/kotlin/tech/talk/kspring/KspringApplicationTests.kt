@@ -1,13 +1,15 @@
 package tech.talk.kspring
 
-import org.junit.jupiter.api.Test
-import org.springframework.boot.test.context.SpringBootTest
+import io.ktor.server.routing.*
+import io.ktor.http.*
+import io.ktor.server.application.*
+import io.ktor.server.response.*
+import io.ktor.server.request.*
+import kotlin.test.*
+import io.ktor.server.testing.*
+import com.example.plugins.*
 
-@SpringBootTest
 class KspringApplicationTests {
 
-	@Test
-	fun contextLoads() {
-	}
 
 }

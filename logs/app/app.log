@@ -1,0 +1,25 @@
+2022-10-10 17:50:54,387 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 17:50:54,784 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 17:50:54,824 INFO   {main} io.ktor.server.engine.BaseApplicationEngine$2:64 - Application started in 0.04 seconds.
+2022-10-10 17:50:55,063 INFO   {DefaultDispatcher-worker-1} io.ktor.server.engine.BaseApplicationEngine$3:76 - Responding at http://0.0.0.0:4567
+2022-10-10 17:51:28,515 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 17:51:28,941 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 17:51:28,980 INFO   {main} io.ktor.server.engine.BaseApplicationEngine$2:64 - Application started in 0.039 seconds.
+2022-10-10 17:51:29,223 INFO   {DefaultDispatcher-worker-1} io.ktor.server.engine.BaseApplicationEngine$3:76 - Responding at http://0.0.0.0:4567
+2022-10-10 18:00:40,234 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 18:00:40,709 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 18:00:40,744 INFO   {main} io.ktor.server.engine.BaseApplicationEngine$2:64 - Application started in 0.036 seconds.
+2022-10-10 18:00:40,969 INFO   {DefaultDispatcher-worker-1} io.ktor.server.engine.BaseApplicationEngine$3:76 - Responding at http://0.0.0.0:4567
+2022-10-10 18:14:01,303 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 18:14:01,727 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 18:14:01,764 INFO   {main} io.ktor.server.engine.BaseApplicationEngine$2:64 - Application started in 0.036 seconds.
+2022-10-10 18:14:02,052 INFO   {DefaultDispatcher-worker-1} io.ktor.server.engine.BaseApplicationEngine$3:76 - Responding at http://0.0.0.0:4567
+2022-10-10 18:14:09,595 INFO   {eventLoopGroupProxy-4-2} tech.talk.kspring.rest.PokemonRest:13 - Starting Poke Search: 123
+2022-10-10 18:14:10,651 INFO   {eventLoopGroupProxy-4-2} tech.talk.kspring.rest.PokemonRest:15 - Poke Search Finished: 123
+2022-10-10 18:17:39,041 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 18:17:39,459 INFO   {main} io.ktor.server.engine.ApplicationEngineEnvironmentReloading:159 - Autoreload is disabled because the development mode is off.
+2022-10-10 18:17:39,498 INFO   {main} io.ktor.server.engine.BaseApplicationEngine$2:64 - Application started in 0.039 seconds.
+2022-10-10 18:17:39,735 INFO   {DefaultDispatcher-worker-1} io.ktor.server.engine.BaseApplicationEngine$3:76 - Responding at http://0.0.0.0:4567
+2022-10-10 18:17:42,928 INFO   {eventLoopGroupProxy-4-2} tech.talk.kspring.rest.PokemonRest:13 - Starting Poke Search: 123
+2022-10-10 18:17:43,840 INFO   {eventLoopGroupProxy-4-2} tech.talk.kspring.resource.PokemonResourceImpl:27 - Success 123 - scyther
+2022-10-10 18:17:43,841 INFO   {eventLoopGroupProxy-4-2} tech.talk.kspring.rest.PokemonRest:15 - Poke Search Finished: 123
