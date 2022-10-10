@@ -2,7 +2,6 @@ package tech.talk.kspring
 
 import io.ktor.serialization.kotlinx.json.*
 import io.ktor.server.application.*
-import io.ktor.server.engine.*
 import io.ktor.server.netty.*
 import io.ktor.server.plugins.contentnegotiation.*
 import io.ktor.server.plugins.callloging.*
@@ -14,10 +13,13 @@ import tech.talk.kspring.router.configureRouting
 
 fun main(args: Array<String>): Unit = EngineMain.main(args)
 
-fun Application.module() {
+fun Application.module(testing: Boolean = false) {
     startKoin {
         modules(appModule)
     }
+
+    configureRouting()
+    configureSerialization()
 
     install(CallLogging) {
         level = Level.INFO
@@ -31,11 +33,6 @@ fun Application.module() {
             "Status: $status, HTTP method: $httpMethod, User agent: $userAgent"
         }
     }
-
-    embeddedServer(Netty, port = 4567, host = "0.0.0.0") {
-        configureRouting()
-        configureSerialization()
-    }.start(wait = true)
 }
 
 fun Application.configureSerialization() {

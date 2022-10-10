@@ -68,7 +68,7 @@ tasks.withType<KotlinCompile> {
 }
 
 tasks.register<WriteProperties>("registering") {
-    outputFile = file("src/main/resources/application.properties")
+    outputFile = file("src/main/resources/data.properties")
     properties(
         mapOf(
             "written.by" to "Filippo Pizzicola",

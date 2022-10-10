@@ -38,5 +38,6 @@ out/
 
 
 ### Project Dependencies ###
-.logs/
-.logs/**
+/logs/
+/logs/**
+src/main/resources/data.properties
